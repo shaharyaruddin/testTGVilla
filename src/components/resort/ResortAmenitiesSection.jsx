@@ -7,7 +7,7 @@ const AmenitiesSection = () => {
     {
       text: "Heated Saltwater Pool",
       icon: "/assets/icon/heatedicon.avif",
-      image: "/images/amenities/heated1.webp",
+      image: "/images/amenities/heated1.jpg",
     },
     {
       text: "Ultra-Luxurious Outdoor Living",
@@ -63,8 +63,12 @@ const AmenitiesSection = () => {
           >
             <div className="flex items-center max-md:items-center space-x-2 text-[#514941] transition-colors duration-300 cursor-pointer">
               <img src={amenity.icon} alt="amenity" className="w-9 h-9" />
-              <span className="text-4xl my-2 max-xl:text-3xl max-md:text-xl">{amenity.text}</span>{" "}
-              <span className="text-5xl font-semibold text-[#FDD17C] max-md:hidden">/</span>
+              <span className="text-4xl my-2 max-xl:text-3xl max-md:text-xl">
+                {amenity.text}
+              </span>{" "}
+              <span className="text-5xl font-semibold text-[#FDD17C] max-md:hidden">
+                /
+              </span>
             </div>
 
             {/* HOVER IMAGE */}
