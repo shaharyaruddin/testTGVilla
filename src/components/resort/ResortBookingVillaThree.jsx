@@ -13,7 +13,7 @@ const ResortBookingVillaThree = () => {
       alt: "3 Bedroom villa",
     },
     {
-      src: "/assets/images/bedroomvilla-3/bedroom17.webp",
+      src: "/assets/images/bedroomvilla-3/bedroom17.jpg",
       alt: "3 Bedroom villa",
     },
     {
