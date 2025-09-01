@@ -19,11 +19,11 @@ const Resort = () => {
      <ResortThirdSection/>
      <ResortFourthSection/>
      <ResortFiveSection/>
-     {/* <ResortBookingVillaTwo/>
+     <ResortBookingVillaTwo/>
      <ResortBookingVillaThree/>
      <ResortTestimonials/>
      <AmenitiesSection/>
-     <ResortButtonSection/> */}
+     <ResortButtonSection/>
     </div>
   )
 }
