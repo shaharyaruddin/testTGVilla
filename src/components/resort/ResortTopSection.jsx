@@ -50,7 +50,7 @@ const ResortTopSection = () => {
       delay: 0.6,
       ease: "power2.inOut",
       onComplete: () => {
-        img.remove(); // cleanup properly
+        img.remove(); 
       },
     });
   };
@@ -58,7 +58,7 @@ const ResortTopSection = () => {
   return (
     <div
       ref={containerRef}
-      className="w-full min-h-screen max-xl:min-h-[40vh] max-md:min-h-[10rem] bg-no-repeat bg-cover flex justify-center items-center relative overflow-hidden"
+      className="w-full min-h-screen max-xl:min-h-[40vh] max-md:min-h-[10rem] max-md:items-end bg-no-repeat bg-cover flex justify-center items-center relative"
       style={{ backgroundImage: "url(/assets/images/posters/mainhero.webp)" }}
       onMouseMove={MouseMoveHandle}
     >
